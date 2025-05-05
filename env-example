@@ -1,16 +1,13 @@
 APP_PORT=3001
 APP_FOR=local
 APP_HOST=http://localhost:
-APP_SERVER=DESKTOP-K6ILVF6\\SQLEXPRESS
 NODE_CLUSTER=NO
 
-DB_CLIENT=mssql
+DB_CLIENT=mysql2
 DB_HOST=localhost
-DB_NAME=mus
-DB_USER=sa
-DB_PASSWORD=admin123
-# DB_PORT dikosongkan agar tidak digunakan dengan instance
-DB_PORT=
+DB_NAME=toko
+DB_USER=root
+DB_PASSWORD=
 
 JWT_EXPIRATION=1d
 TOKEN_EXPIRED=1d
