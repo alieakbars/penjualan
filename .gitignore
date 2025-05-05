@@ -1,0 +1,16 @@
+# Folder node_modules (untuk proyek Node.js)
+node_modules/
+
+# File konfigurasi pribadi
+.env
+
+# Folder hasil build
+/dist/
+/build/
+
+# File log
+*.log
+
+# Cache editor
+.vscode/
+.idea/
